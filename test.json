@@ -1,0 +1,841 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/manifest-v3-choice-image3.json",
+  "type": "Manifest",
+  "label": {
+    "ja": [
+      "文学書　紙片"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "ja": [
+          "資料ID"
+        ]
+      },
+      "value": {
+        "ja": [
+          "NAKANISHI_0209"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Research Project"
+        ],
+        "ja": [
+          "研究プロジェクト"
+        ]
+      },
+      "value": {
+        "en": [
+          "中西コレクション"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Project Visibility"
+        ],
+        "ja": [
+          "プロジェクト公開範囲"
+        ]
+      },
+      "value": {
+        "en": [
+          "private"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif/full/200,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 200,
+      "height": 132,
+      "service": [
+        {
+          "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif",
+          "type": "ImageService3",
+          "profile": "level2"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+      "type": "Canvas",
+      "label": {
+        "ja": [
+          "表面"
+        ]
+      },
+      "width": 3000,
+      "height": 1977,
+      "thumbnail": [
+        {
+          "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200,
+          "height": 132,
+          "service": [
+            {
+              "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/page/front",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/annotation/front",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "可視光"
+                      ],
+                      "en": [
+                        "VL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1977,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_VL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwDL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "正面反射光あり"
+                      ],
+                      "en": [
+                        "PLwDL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1977,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwDL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwDL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwDL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwoDL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "正面反射光除去"
+                      ],
+                      "en": [
+                        "PLwoDL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1977,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwoDL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwoDL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_PLwoDL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_IR.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "赤外光"
+                      ],
+                      "en": [
+                        "IR"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1977,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_IR.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_IR.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_IR.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_UVF.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "紫外蛍光"
+                      ],
+                      "en": [
+                        "UVF"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1977,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_UVF.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_UVF.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FFront%2F209_F_UVF.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "target": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotationPage/94cf49d3-5d18-45ef-8e4d-128c8af5db77",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/b010e588-71dc-413a-818a-fadb282d4b99",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "testest2"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1083,509,330,77"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qmWm9wW2FyKATc15bTgf"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/3759a4eb-3bc1-4ff3-871f-3ec4220fa368",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "line 1"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1065,284,848,90"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qGFtxkCRdSWA0VWKMo1r"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/07a162ca-826d-4fea-8a27-ecd5538af442",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "<p>これはテストアノテーションです。</p>\n",
+                "label": "testtest"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1083,509,330,77"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qmWm9wW2FyKATc15bTgf"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/de97063a-6b93-46ae-8f0c-d5821f3ed3c2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "<p>寛大さのひとつは、貧しい者へ施しをすることや愛しい者へ愛情を注ぐ時に</p>\n",
+                "label": "Translation_JNP"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1065,284,848,90"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qGFtxkCRdSWA0VWKMo1r"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/850dcb05-9945-424e-91d2-1c1fbfc0ab9e",
+              "type": "Annotation",
+              "motivation": [
+                "commenting",
+                "tagging"
+              ],
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "format": "text/html",
+                  "value": "<p>دیگر از محسنات جود و کرم آنست که چون بفقیري خیري یا بيار عزیزي ريزشی نماید</p>\n",
+                  "label": "Transcription"
+                },
+                {
+                  "type": "TextualBody",
+                  "value": "persian",
+                  "purpose": "tagging",
+                  "label": {
+                    "none": [
+                      "transcription"
+                    ]
+                  }
+                }
+              ],
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1065,284,848,90"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qGFtxkCRdSWA0VWKMo1r"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/229d1cb6-6944-4080-abf6-6a852b855d14",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "Transcription"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1076,375,828,52"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/jSjbqA2W32xhny0OyYx4"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/85a9cf84-1bb0-48d9-a2ea-5c075496653a",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "Line 2"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1076,375,828,52"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/jSjbqA2W32xhny0OyYx4"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/3b3016e6-d058-439c-880c-831a7bda390e",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "test"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1199,1322,223,181"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/iVTqsUSC9zve2TXYRP8a"
+              },
+              "seeAlso": [
+                {
+                  "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/bibliography/84e392dc-4b86-4f6b-9e64-c764881d1025",
+                  "type": "Text",
+                  "label": {
+                    "en": [
+                      "Aounallah, Samir (2010). Pagus, castellum et civitas"
+                    ]
+                  },
+                  "format": "text/plain"
+                }
+              ]
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/310e58c6-b325-4de3-b880-6e199ea78dd0",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "Translation＿JPN"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1076,375,828,52"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/jSjbqA2W32xhny0OyYx4"
+              }
+            },
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/f8cdb154-458d-429f-ab98-f37184926839",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "<p>Another merit of generosity and benevolence is that when one bestows a favor upon a needy person or extends a gift to a cherished individual...</p>\n",
+                "label": "Translation_ENG"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/front",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1065,284,848,90"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/qGFtxkCRdSWA0VWKMo1r"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/back",
+      "type": "Canvas",
+      "label": {
+        "ja": [
+          "裏面"
+        ]
+      },
+      "width": 3000,
+      "height": 1982,
+      "thumbnail": [
+        {
+          "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif/full/200,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200,
+          "height": 132,
+          "service": [
+            {
+              "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/page/back",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/annotation/back",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "可視光"
+                      ],
+                      "en": [
+                        "VL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1982,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_VL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwDL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "正面反射光あり"
+                      ],
+                      "en": [
+                        "PLwDL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1982,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwDL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwDL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwDL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwoDL.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "正面反射光除去"
+                      ],
+                      "en": [
+                        "PLwoDL"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1982,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwoDL.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwoDL.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_PLwoDL.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_IR.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "赤外光"
+                      ],
+                      "en": [
+                        "IR"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1982,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_IR.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_IR.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_IR.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_UVF.tif/full/!3000,3000/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "label": {
+                      "ja": [
+                        "紫外蛍光"
+                      ],
+                      "en": [
+                        "UVF"
+                      ]
+                    },
+                    "width": 3000,
+                    "height": 1982,
+                    "thumbnail": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_UVF.tif/full/200,/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 200,
+                        "height": 132,
+                        "service": [
+                          {
+                            "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_UVF.tif",
+                            "type": "ImageService3",
+                            "profile": "level2"
+                          }
+                        ]
+                      }
+                    ],
+                    "service": [
+                      {
+                        "id": "https://iiif.nihu.jp/iiif/3/minpaku_nakanishi_test%2F209%2FBack%2F209_B_UVF.tif",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "target": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/back"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotationPage/bc5b05d7-2df6-48a0-8691-38ae74d39095",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/annotation/36f2c44f-c30b-4fa4-bc82-6d18b66d5410",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/html",
+                "value": "",
+                "label": "しみ"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/v3-choice-image3/canvas/back",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1493,942,50,42"
+                },
+                "id": "https://cm3.github.io/nakanishi-tools/manifests/NAKANISHI_0209/region/wbvmF5l5q9LsQ4rjeW1H"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://3-d-annotation-viewer.vercel.app/projects/430c4310-0039-4eb5-b470-ada33ea34218",
+      "type": "Dataset",
+      "label": {
+        "en": [
+          "Research Project: 中西コレクション"
+        ]
+      },
+      "format": "text/html"
+    },
+    {
+      "id": "https://3-d-annotation-viewer.vercel.app/api/3/aHR0cHM6Ly9jbTMuZ2l0aHViLmlvL25ha2FuaXNoaS10b29scy9tYW5pZmVzdHMvTkFLQU5JU0hJXzAyMDkvbWFuaWZlc3QtdjMtY2hvaWNlLWltYWdlMy5qc29u/rdf",
+      "type": "Dataset",
+      "label": {
+        "en": [
+          "RDF/Turtle description"
+        ]
+      },
+      "format": "text/turtle",
+      "profile": "https://www.w3.org/TR/turtle/"
+    }
+  ]
+}
